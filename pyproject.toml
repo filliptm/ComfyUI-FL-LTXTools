@@ -1,0 +1,17 @@
+[project]
+name = "ComfyUI-FL-LTXTools"
+description = "Experimental tools and motion controls for LTX-Video in ComfyUI"
+version = "1.0.0"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.9"
+dependencies = [
+    "torch>=2.0.0",
+]
+
+[project.urls]
+Repository = "https://github.com/filliptm/ComfyUI-FL-LTXTools"
+
+[tool.comfy]
+PublisherId = "machinedelusions"
+DisplayName = "ComfyUI-FL-LTXTools"
+Icon = ""
